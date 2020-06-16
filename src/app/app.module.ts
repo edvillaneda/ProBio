@@ -9,6 +9,8 @@ import { NavbarComponent } from './shared/navbar/navbar.component';
 import { BreadcrumbComponent } from './shared/breadcrumb/breadcrumb.component';
 import { LeftbarComponent } from './shared/leftbar/leftbar.component';
 import { FooterComponent } from './shared/footer/footer.component';
+import { AlertasComponent } from './pages/alertas/alertas.component';
+import { DashboardComponent } from './pages/dashboard/dashboard.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +18,9 @@ import { FooterComponent } from './shared/footer/footer.component';
     NavbarComponent,
     BreadcrumbComponent,
     LeftbarComponent,
-    FooterComponent
+    FooterComponent,
+    AlertasComponent,
+    DashboardComponent
   ],
   imports: [
     BrowserModule,
