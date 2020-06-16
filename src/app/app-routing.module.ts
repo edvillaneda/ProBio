@@ -7,6 +7,7 @@ import { DashboardComponent } from './pages/dashboard/dashboard.component';
 const routes: Routes = [
   { path: 'home', component: DashboardComponent },
   { path: 'alertas', component: AlertasComponent },
+  { path: 'notificacion', component: AlertasComponent },
   { path: '**', pathMatch: 'full', redirectTo: 'home' }
 ];
 
