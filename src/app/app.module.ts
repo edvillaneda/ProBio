@@ -5,10 +5,18 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ServiceWorkerModule } from '@angular/service-worker';
 import { environment } from '../environments/environment';
+import { NavbarComponent } from './shared/navbar/navbar.component';
+import { BreadcrumbComponent } from './shared/breadcrumb/breadcrumb.component';
+import { LeftbarComponent } from './shared/leftbar/leftbar.component';
+import { FooterComponent } from './shared/footer/footer.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    NavbarComponent,
+    BreadcrumbComponent,
+    LeftbarComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
